@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radiance Beauty | Glow Up Your Routine</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+
+    <header class="navbar">
+  <div class="container">
+    <a href="home.html" class="logo">Radience Beauty</a>
+
+    <nav class="nav-desktop">
+      <a href="home.html">Home</a>
+      <a href="skincare.html">Skincare</a>
+      <a href="makeup.html">Makeup</a>
+      <a href="login.html">Login</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    
+  </div>
+</header>
+
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <span class="hero-tag">Clean & Conscious</span>
+                <h1 class="hero-title">The Signature Glow Serum</h1>
+                <p class="hero-desc">Infused with botanical extracts and hyaluronic acid. Achieve luminous, hydrated skin in one step.</p>
+                <button class="shop-btn">Shop Skincare</button>
+            </div>
+            <div class="hero-image-container">
+                <img src="download (8).jpg" alt="Glow Serum" class="hero-image">
+            </div>
+        </section>
+
+        <section class="categories">
+            <h2>Your Beauty Routine</h2>
+            <div class="category-grid">
+                <div class="category-card">
+                    <span class="category-emoji">💧</span>
+                    <h3>Skincare</h3>
+                    <p>Essential hydration.</p>
+                </div>
+                <div class="category-card">
+                    <span class="category-emoji">💄</span>
+                    <h3>Makeup</h3>
+                    <p>Perfect pigments.</p>
+                </div>
+                <div class="category-card">
+                    <span class="category-emoji">🌿</span>
+                    <h3>Body & Hair</h3>
+                    <p>Natural cleansing.</p>
+                </div>
+                <div class="category-card">
+                    <span class="category-emoji">🌸</span>
+                    <h3>Fragrance</h3>
+                    <p>Signature scents.</p>
+                </div>
+            </div>
+        </section>
+
+    
+        <section class="products">
+            <h2>Bestsellers This Month</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="download (7).jpg" alt="Hydra Cleanser">
+                    <h3>Hydra-Calm Cleanser</h3>
+                    <p>Skincare</p>
+                    <div class="product-footer">
+                        <span> $2499</span>
+                        <button class="add-btn" onclick="addToCart({
+                          id: 301,
+                          name:'Hydra-Calm Cleanser',
+                          price:$2499,
+                          image: 'download (7).jpg'
+                       })">Add to Cart</button>
+
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="download (6).jpg" alt="Air-Light Foundation">
+                    <h3>Air-Light Luminous Foundation</h3>
+                    <p>Makeup</p>
+                    <div class="product-footer">
+                        <span>$4500</span>
+                        <button class="add-btn">Add to Bag</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="images (1).jpg" alt="Repair Mask">
+                    <h3>Keratin Repair Hair Mask</h3>
+                    <p>Body & Hair</p>
+                    <div class="product-footer">
+                        <span>$3299</span>
+                        <button class="add-btn">Add to Bag</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="download (5).jpg" alt="Berry Lip Oil">
+                    <h3>Berry Tinted Lip Oil</h3>
+                    <p>Makeup</p>
+                    <div class="product-footer">
+                        <span>$1800</span>
+                        <button class="add-btn">Add to Bag</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="promo">
+            <h2>Free Shipping on All Orders Over $50</h2>
+            <p>Enjoy luxury delivered directly to your door, quickly and reliably.</p>
+            <a href="#" class="promo-btn">View Details →</a>
+        </section>
+    </main>
+
+    <footer class="footer">
+    <div class="footer-container">
+        <!-- Brand -->
+        <div class="footer-brand">
+            <h3>Radiance Beauty</h3>
+            <p>✨ Dedicated to clean, effective, and cruelty-free beauty for your best glow.</p>
+            <div class="social-icons">
+                <a href="#" aria-label="Instagram">📸</a>
+                <a href="#" aria-label="Facebook">👍</a>
+                <a href="#" aria-label="Newsletter">✉️</a>
+            </div>
+        </div>
+
+ 
+        <div class="footer-section">
+            <h4>Shop</h4>
+            <ul>
+                <li><a href="#">Skincare Sets</a></li>
+                <li><a href="#">Vegan Makeup</a></li>
+                <li><a href="#">Sale</a></li>
+            </ul>
+        </div>
+
+
+        <div class="footer-section">
+            <h4>Company</h4>
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Ingredients</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+
+ 
+        <div class="footer-section">
+            <h4>Connect</h4>
+            <ul>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Newsletter</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="footer-copy">
+        Radiance Beauty, All rights reserved.
+    </div>
+</footer>
+ <script src="homescript.js"></script>
+ <script src="cart.js"></script>
+</body>
+</html>

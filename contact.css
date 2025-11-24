@@ -1,0 +1,132 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.navbar {
+    background: #fff;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+.navbar .logo {
+    font-size: 28px;
+    font-weight: 800;
+    color: #db2777;
+    text-decoration: none;
+}
+.nav-desktop {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+.nav-desktop a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #4b5563;
+    transition: color 0.3s;
+}
+.nav-desktop a:hover {
+    color: #db2777;
+}
+
+.contact-form-container label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #6b7280;
+}
+.contact-form-container input,
+.contact-form-container textarea {
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 15px;
+    border: 1px solid #f9a8d4;
+    border-radius: 12px;
+    font-size: 14px;
+    transition: border 0.3s;
+}
+.contact-form-container input:focus,
+.contact-form-container textarea:focus {
+    border-color: #db2777;
+    outline: none;
+}
+
+.checkout-btn {
+    background: #db2777;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 9999px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.checkout-btn:hover {
+    background: #be185d;
+}
+
+footer {
+    background: #111827;
+    color: #f3f4f6;
+    padding: 50px 20px 20px;
+}
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    gap: 30px;
+    border-bottom: 1px solid #374151;
+    padding-bottom: 25px;
+    margin-bottom: 20px;
+}
+.footer-column h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #f472b6;
+    margin-bottom: 10px;
+}
+.footer-column p, .footer-column a {
+    font-size: 14px;
+    color: #9ca3af;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 8px;
+}
+.footer-column a:hover {
+    color: #f9a8d4;
+}
+.footer-bottom {
+    text-align: center;
+    color: #6b7280;
+    font-size: 13px;
+    margin-top: 10px;
+}
+.footer-copy{
+    text-align: center;
+}
+
+@media (max-width:768px){
+    .nav-desktop {
+        display: none;
+    }
+    .contact-form-container {
+        padding: 20px;
+    }
+}

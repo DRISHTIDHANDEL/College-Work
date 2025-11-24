@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radiance Beauty | Skincare Collection</title>
+    <link rel="stylesheet" href="skincare.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+</head>
+<body>
+
+   <header class="navbar">
+  <div class="container">
+    <a href="index.html" class="logo">Radience Beauty</a>
+
+    <nav class="nav-desktop">
+      <a href="index.html">Home</a>
+      <a href="skincare.html">Skincare</a>
+      <a href="makeup.html">Makeup</a>
+      <a href="login.html">Login</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+
+    <main>
+
+
+        <!-- Categories -->
+        <section class="categories">
+            <h2>Skincare Essentials</h2>
+            <div class="category-grid">
+                <div class="category-card">
+                    <span class="category-emoji">💧</span>
+                    <h3>Moisturizers</h3>
+                    <p>Hydrate and nourish</p>
+                </div>
+                <div class="category-card">
+                    <span class="category-emoji">🧴</span>
+                    <h3>Cleansers</h3>
+                    <p>Gentle daily care</p>
+                </div>
+                <div class="category-card">
+                    <span class="category-emoji">✨</span>
+                    <h3>Serums</h3>
+                    <p>Targeted treatments</p>
+                </div>
+                <div class="category-card">
+                    <span class="category-emoji">🌞</span>
+                    <h3>SPF & Protection</h3>
+                    <p>Shield and protect</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="products">
+            <h2>Top Skincare Picks</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="download (9).jpg" alt="Hydra Calm Cleanser">
+                    <h3>Hydra-Calm Cleanser</h3>
+                    <p>Skincare</p>
+                    <div class="product-footer">
+                        <span>$24</span>
+                         <button class="add-btn" onclick="addToCart({id:101,name:'Hydra-Calm Cleanser',price:$24,image:'download (9).jpg'})">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="renee-korean-glow-serum-15ml-glass-skin-effect-l-1733728830610_SKU-10205_0.webp" alt="Glow Serum">
+                    <h3>Signature Glow Serum</h3>
+                    <p>Skincare</p>
+                    <div class="product-footer">
+                        <span>$38</span>
+                       <button class="add-btn"
+                         onclick="addToCart('Signature Glow Serum', $24, 'download (9).jpg')">
+                         Add to Cart
+                       </button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="download (10).jpg" alt="Keratin Repair Hair Mask">
+                    <h3>Overnight Repair Mask</h3>
+                    <p>Skincare</p>
+                    <div class="product-footer">
+                        <span>$29</span>
+                        <button class="add-btn"
+                         onclick="addToCart('Overnight Repair Mask', $29, 'download (10).jpg')">
+                         Add to Cart
+                        </button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="images (2).jpg" alt="SPF Moisturizer">
+                    <h3>Daily SPF Moisturizer</h3>
+                    <p>Skincare</p>
+                    <div class="product-footer">
+                        <span>$34</span>
+                        <button class="add-btn"
+                         onclick="addToCart('Daily SPF Moisturizer', $34, 'images (2).jpg')">
+                         Add to Cart
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="promo">
+            <h2>Free Shipping on All Skincare Orders Over $50</h2>
+            <p>Get radiant skin delivered right to your door, fast and cruelty-free.</p>
+            <a href="#" class="promo-btn">View Details →</a>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <h3>Radiance Beauty</h3>
+                <p>✨ Dedicated to clean, effective, and cruelty-free beauty for your best glow.</p>
+                <div class="social-icons">
+                    <a href="#" aria-label="Instagram">📸</a>
+                    <a href="#" aria-label="Facebook">👍</a>
+                    <a href="#" aria-label="Newsletter">✉️</a>
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h4>Shop</h4>
+                <ul>
+                    <li><a href="#">Skincare Sets</a></li>
+                    <li><a href="#">Vegan Makeup</a></li>
+                    <li><a href="#">Sale</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Ingredients</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h4>Connect</h4>
+                <ul>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Newsletter</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-copy">
+             Radiance Beauty,
+             All rights reserved.
+        </div>
+    </footer>
+
+    <script src="homescript.js"></script>
+</body>
+</html>
